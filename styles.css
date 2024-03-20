@@ -1,0 +1,68 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.legendKey {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  fill: rgb(75, 79, 94);
+}
+
+.background {
+  fill: none;
+  /*fill: rgb(239, 237, 245);*/
+  stroke: black;
+  stroke-width: 3.5px;
+  pointer-events: all;
+}
+
+#states {
+  /* fill: #00a0b0; */
+  stroke: #ffffff;
+  stroke-width: 1.25px;
+  opacity: 0.85;
+}
+
+#states .active {
+  /*fill: lightblue;*/
+  fill: #eb6841;
+}
+
+.graticuleLine {
+  fill: none;
+  stroke: #777;
+  stroke-width: 0.5px;
+}
+
+.fill-blue {
+  fill: #00a0b0;
+}
+
+.fill-brown {
+  fill: #6a4a3c;
+}
+
+.fill-red {
+  fill: #cc333f;
+}
+
+.fill-orange {
+  fill: #eb6841;
+}
+
+.fill-yellow {
+  fill: #edc951;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+}
+
+p.small {
+  font-size: 12px;
+}
